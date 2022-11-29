@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="134.276" tests="24" errors="0" skipped="7" failures="8">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="webdriver.chrome.driver" value="D:\AutomationAug2022\TestNGMaven\drivers\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\AutomationAug2022\TestNGMaven\target\test-classes;D:\AutomationAug2022\TestNGMaven\target\classes;C:\Users\Mahadev\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\Mahadev\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Mahadev\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Mahadev\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Mahadev\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Mahadev\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Mahadev\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Mahadev\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Mahadev\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Mahadev\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Mahadev\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Mahadev\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Mahadev\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Mahadev\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Mahadev\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Mahadev\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Mahadev\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Mahadev\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Mahadev\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Mahadev\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Mahadev\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Mahadev\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Mahadev\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Mahadev\.m2\repository\com\microsoft\edge\msedge-selenium-tools-java\3.141.0\msedge-selenium-tools-java-3.141.0.jar;C:\Users\Mahadev\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Mahadev\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Mahadev\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\Mahadev\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Mahadev\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Mahadev\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\Mahadev\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Mahadev\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\Mahadev\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\Mahadev\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Mahadev\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\Mahadev\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\Mahadev\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\Mahadev\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Mahadev\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\Mahadev\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\Mahadev\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\Mahadev\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\Mahadev\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Mahadev\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\Mahadev\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Mahadev\.m2\repository\com\mysql\mysql-connector-j\8.0.31\mysql-connector-j-8.0.31.jar;C:\Users\Mahadev\.m2\repository\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="D:\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_18.0.1.v20220515-1614\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Mahadev\AppData\Local\Temp\surefire7660215681367856298\surefirebooter13581064707588420109.jar C:\Users\Mahadev\AppData\Local\Temp\surefire7660215681367856298 2022-11-25T08-18-54_594-jvmRun1 surefire10321510938766095933tmp surefire_09072774361339233694tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\AutomationAug2022\TestNGMaven\target\test-classes;D:\AutomationAug2022\TestNGMaven\target\classes;C:\Users\Mahadev\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\Mahadev\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Mahadev\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Mahadev\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Mahadev\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Mahadev\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Mahadev\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Mahadev\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Mahadev\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Mahadev\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Mahadev\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Mahadev\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Mahadev\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Mahadev\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Mahadev\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Mahadev\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Mahadev\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Mahadev\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Mahadev\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Mahadev\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Mahadev\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Mahadev\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Mahadev\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Mahadev\.m2\repository\com\microsoft\edge\msedge-selenium-tools-java\3.141.0\msedge-selenium-tools-java-3.141.0.jar;C:\Users\Mahadev\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Mahadev\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Mahadev\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\Mahadev\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Mahadev\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Mahadev\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\Mahadev\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Mahadev\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\Mahadev\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\Mahadev\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Mahadev\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\Mahadev\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\Mahadev\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\Mahadev\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Mahadev\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\Mahadev\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\Mahadev\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\Mahadev\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\Mahadev\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Mahadev\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\Mahadev\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Mahadev\.m2\repository\com\mysql\mysql-connector-j\8.0.31\mysql-connector-j-8.0.31.jar;C:\Users\Mahadev\.m2\repository\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Mahadev"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-04-19"/>
+    <property name="java.home" value="D:\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_18.0.1.v20220515-1614\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\AutomationAug2022\TestNGMaven"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Mahadev\AppData\Local\Temp\surefire7660215681367856298\surefirebooter13581064707588420109.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="18.0.1+10"/>
+    <property name="user.name" value="Mahadev"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-18.0.1+10"/>
+    <property name="localRepository" value="C:\Users\Mahadev\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\Mahadev\AppData\Local\Temp\"/>
+    <property name="java.version" value="18.0.1"/>
+    <property name="user.dir" value="D:\AutomationAug2022\TestNGMaven"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="D:\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_18.0.1.v20220515-1614\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_18.0.1.v20220515-1614/jre/bin/server;D:/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_18.0.1.v20220515-1614/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\dotnet\;C:\Program Files\Java\jdk-11.0.15.1\bin;C:\Users\Mahadev\AppData\Local\Microsoft\WindowsApps;;D:\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="18.0.1+10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="verifySliderDisplay" classname="com.vyasasti.testng.basic.PracticeAutomation" time="0.433">
+    <system-out><![CDATA[BeforeSuiteMethod
+BeforeTestMethod
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 28872
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1669344545.911][WARNING]: This version of ChromeDriver has not been tested with Chrome version 107.
+Nov 25, 2022 8:19:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="test3" classname="com.vyasasti.testng.basic.PracticeAutomation" time="0"/>
+  <testcase name="verifyBooksCountDisplayed" classname="com.vyasasti.testng.basic.PracticeAutomation" time="0.267"/>
+  <testcase name="verifyTitleOfHomePage" classname="com.vyasasti.testng.basic.PracticeAutomation" time="0.022">
+    <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=107.0.5304.107)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-58RE0M7&apos;, ip: &apos;192.168.29.152&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Mahadev\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50790}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 300665de6f7e8ae61362a69825c12e3f" type="org.openqa.selenium.NoSuchWindowException"><![CDATA[org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-58RE0M7', ip: '192.168.29.152', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Mahadev\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50790}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 300665de6f7e8ae61362a69825c12e3f
+	at com.vyasasti.testng.basic.PracticeAutomation.verifyTitleOfHomePage(PracticeAutomation.java:35)
+]]></failure>
+  </testcase>
+  <testcase name="verifySliderCount" classname="com.vyasasti.testng.basic.PracticeAutomation" time="0.009">
+    <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=107.0.5304.107)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-58RE0M7&apos;, ip: &apos;192.168.29.152&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Mahadev\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50790}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 300665de6f7e8ae61362a69825c12e3f&#10;*** Element info: {Using=xpath, value=//div[@id=&quot;text-22-0-0-1&quot;]//img[@class=&quot;n2-ss-slide-background-image n2-ss-slide-fill n2-ow&quot;]}" type="org.openqa.selenium.NoSuchWindowException"><![CDATA[org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-58RE0M7', ip: '192.168.29.152', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Mahadev\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50790}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 300665de6f7e8ae61362a69825c12e3f
+*** Element info: {Using=xpath, value=//div[@id="text-22-0-0-1"]//img[@class="n2-ss-slide-background-image n2-ss-slide-fill n2-ow"]}
+	at com.vyasasti.testng.basic.PracticeAutomation.verifySliderCount(PracticeAutomation.java:68)
+]]></failure>
+  </testcase>
+  <testcase name="verifyNewArrivalHeaderText" classname="com.vyasasti.testng.basic.PracticeAutomation" time="0.009">
+    <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=107.0.5304.107)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-58RE0M7&apos;, ip: &apos;192.168.29.152&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Mahadev\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50790}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 300665de6f7e8ae61362a69825c12e3f&#10;*** Element info: {Using=tag name, value=h2}" type="org.openqa.selenium.NoSuchWindowException"><![CDATA[org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-58RE0M7', ip: '192.168.29.152', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Mahadev\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50790}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 300665de6f7e8ae61362a69825c12e3f
+*** Element info: {Using=tag name, value=h2}
+	at com.vyasasti.testng.basic.PracticeAutomation.verifyNewArrivalHeaderText(PracticeAutomation.java:53)
+]]></failure>
+  </testcase>
+  <testcase name="test2" classname="com.vyasasti.testng.basic.PracticeAutomation" time="0">
+    <skipped message="Method PracticeAutomation.test2()[pri:0, instance:com.vyasasti.testng.basic.PracticeAutomation@2b48a640] depends on not successfully finished methods in group &quot;Sanity&quot;"/>
+  </testcase>
+  <testcase name="closeBrowser" classname="com.vyasasti.testng.basic.PracticeAutomation" time="32.381">
+    <failure message="disconnected: unable to connect to renderer&#10;  (failed to check if window was closed: disconnected: unable to connect to renderer)&#10;  (Session info: chrome=107.0.5304.107)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-58RE0M7&apos;, ip: &apos;192.168.29.152&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Mahadev\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50790}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 300665de6f7e8ae61362a69825c12e3f" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+disconnected: unable to connect to renderer
+  (failed to check if window was closed: disconnected: unable to connect to renderer)
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-58RE0M7', ip: '192.168.29.152', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Mahadev\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50790}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 300665de6f7e8ae61362a69825c12e3f
+	at com.vyasasti.testng.basic.PracticeAutomation.closeBrowser(PracticeAutomation.java:84)
+]]></failure>
+    <system-err><![CDATA[[1669344641.456][WARNING]: Timed out connecting to Chrome, retrying...
+[1669344649.553][WARNING]: Timed out connecting to Chrome, retrying...
+[1669344657.644][WARNING]: Timed out connecting to Chrome, retrying...
+[1669344665.720][WARNING]: Timed out connecting to Chrome, retrying...
+]]></system-err>
+  </testcase>
+  <testcase name="TestMethod1" classname="com.vyasasti.testng.basic.TestNGAnnotations" time="0">
+    <system-out><![CDATA[BeforeClassMethod
+BeforeMethod
+TestMethod1
+]]></system-out>
+  </testcase>
+  <testcase name="TestMethod2" classname="com.vyasasti.testng.basic.TestNGAnnotations" time="0">
+    <system-out><![CDATA[AfterMethod
+BeforeMethod
+TestMethod2
+]]></system-out>
+  </testcase>
+  <testcase name="openBrowser" classname="com.vyasasti.testng.basic.DataProviderData" time="51.896">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[text()=&apos;OK&apos;]&quot;}&#10;  (Session info: chrome=107.0.5304.107)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-58RE0M7&apos;, ip: &apos;192.168.29.152&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Mahadev\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50816}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 4cc1de91520705213a90c86fea41cb95&#10;*** Element info: {Using=xpath, value=//button[text()=&apos;OK&apos;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='OK']"}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-58RE0M7', ip: '192.168.29.152', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Mahadev\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50816}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4cc1de91520705213a90c86fea41cb95
+*** Element info: {Using=xpath, value=//button[text()='OK']}
+	at com.vyasasti.testng.basic.DataProviderData.openBrowser(DataProviderData.java:28)
+]]></failure>
+    <system-out><![CDATA[AfterMethod
+AfterClassMethod
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 35791
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1669344558.115][WARNING]: This version of ChromeDriver has not been tested with Chrome version 107.
+Nov 25, 2022 8:19:18 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="loginform" classname="com.vyasasti.testng.basic.DataProviderData" time="52.027">
+    <failure message="&#10;[public void com.vyasasti.testng.basic.DataProviderData.loginform(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).&#10;Data provider mismatch&#10;Method: loginform([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=4, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=5, type=java.lang.String, declaredAnnotations=[]}])&#10;Arguments: []" type="org.testng.internal.reflect.MethodMatcherException"><![CDATA[org.testng.internal.reflect.MethodMatcherException: 
+
+[public void com.vyasasti.testng.basic.DataProviderData.loginform(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: loginform([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=4, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=5, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+]]></failure>
+  </testcase>
+  <testcase name="closeBrowser" classname="com.vyasasti.testng.basic.DataProviderData" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="m1" classname="com.vyasasti.testng.basic.AssertTestNG" time="0"/>
+  <testcase name="m2" classname="com.vyasasti.testng.basic.AssertTestNG" time="0"/>
+  <testcase name="m3" classname="com.vyasasti.testng.basic.AssertTestNG" time="0"/>
+  <testcase name="m4" classname="com.vyasasti.testng.basic.AssertTestNG" time="0.001"/>
+  <testcase name="softAssertTest" classname="com.vyasasti.testng.basic.AssertTestNG" time="0.062">
+    <failure message="The following asserts failed:&#10;	expected [A] but found [B],&#10;	expected [false] but found [true]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+The following asserts failed:
+	expected [A] but found [B],
+	expected [false] but found [true]
+	at com.vyasasti.testng.basic.AssertTestNG.softAssertTest(AssertTestNG.java:55)
+]]></failure>
+    <system-out><![CDATA[1
+2
+3
+4
+5
+6
+7
+]]></system-out>
+  </testcase>
+  <testcase name="browserLaunch" classname="com.vyasasti.testng.basic.DataProviderExample" time="28.947">
+    <failure message="disconnected: received Inspector.detached event&#10;  (failed to check if window was closed: disconnected: unable to connect to renderer)&#10;  (Session info: chrome=107.0.5304.107)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-58RE0M7&apos;, ip: &apos;192.168.29.152&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00BC1ED3+2236115]&#10;	Ordinal0 [0x00B592F1+1807089]&#10;	Ordinal0 [0x00A666FD+812797]&#10;	Ordinal0 [0x00A5A1B6+762294]&#10;	Ordinal0 [0x00A59E33+761395]&#10;	Ordinal0 [0x00A59350+758608]&#10;	Ordinal0 [0x00A592C1+758465]&#10;	Ordinal0 [0x00A58113+753939]&#10;	Ordinal0 [0x00A5861D+755229]&#10;	Ordinal0 [0x00A57D25+752933]&#10;	Ordinal0 [0x00A62083+794755]&#10;	Ordinal0 [0x00A57CD5+752853]&#10;	Ordinal0 [0x00A58EE6+757478]&#10;	Ordinal0 [0x00A58113+753939]&#10;	Ordinal0 [0x00A5861D+755229]&#10;	Ordinal0 [0x00A57D25+752933]&#10;	Ordinal0 [0x00A5FBB8+785336]&#10;	Ordinal0 [0x00A57CD5+752853]&#10;	Ordinal0 [0x00A58EE6+757478]&#10;	Ordinal0 [0x00A58113+753939]&#10;	Ordinal0 [0x00A5861D+755229]&#10;	Ordinal0 [0x00A57D25+752933]&#10;	Ordinal0 [0x00A5D5C2+775618]&#10;	Ordinal0 [0x00A57CD5+752853]&#10;	Ordinal0 [0x00A58EE6+757478]&#10;	Ordinal0 [0x00A58113+753939]&#10;	Ordinal0 [0x00A5861D+755229]&#10;	Ordinal0 [0x00A57D25+752933]&#10;	Ordinal0 [0x00A52F2D+732973]&#10;	Ordinal0 [0x00A57CD5+752853]&#10;	Ordinal0 [0x00A574FD+750845]&#10;	Ordinal0 [0x00A5720F+750095]&#10;	Ordinal0 [0x00A67B93+818067]&#10;	Ordinal0 [0x00A4D2E9+709353]&#10;	Ordinal0 [0x00A4C4EB+705771]&#10;	Ordinal0 [0x00AB8215+1147413]&#10;	Ordinal0 [0x00AB7A6A+1145450]&#10;	Ordinal0 [0x00AB18A6+1120422]&#10;	Ordinal0 [0x00A8A73D+960317]&#10;	Ordinal0 [0x00A8B71F+964383]&#10;	GetHandleVerifier [0x00E6E7E2+2743074]&#10;	GetHandleVerifier [0x00E608D4+2685972]&#10;	GetHandleVerifier [0x00C52BAA+532202]&#10;	GetHandleVerifier [0x00C51990+527568]&#10;	Ordinal0 [0x00B6080C+1837068]&#10;	Ordinal0 [0x00B64CD8+1854680]&#10;	Ordinal0 [0x00B64DC5+1854917]&#10;	Ordinal0 [0x00B6ED64+1895780]&#10;	BaseThreadInitThunk [0x7681FEF9+25]&#10;	RtlGetAppContainerNamedObjectPath [0x770A7BBE+286]&#10;	RtlGetAppContainerNamedObjectPath [0x770A7B8E+238]&#10;" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: unable to connect to renderer)
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-58RE0M7', ip: '192.168.29.152', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00BC1ED3+2236115]
+	Ordinal0 [0x00B592F1+1807089]
+	Ordinal0 [0x00A666FD+812797]
+	Ordinal0 [0x00A5A1B6+762294]
+	Ordinal0 [0x00A59E33+761395]
+	Ordinal0 [0x00A59350+758608]
+	Ordinal0 [0x00A592C1+758465]
+	Ordinal0 [0x00A58113+753939]
+	Ordinal0 [0x00A5861D+755229]
+	Ordinal0 [0x00A57D25+752933]
+	Ordinal0 [0x00A62083+794755]
+	Ordinal0 [0x00A57CD5+752853]
+	Ordinal0 [0x00A58EE6+757478]
+	Ordinal0 [0x00A58113+753939]
+	Ordinal0 [0x00A5861D+755229]
+	Ordinal0 [0x00A57D25+752933]
+	Ordinal0 [0x00A5FBB8+785336]
+	Ordinal0 [0x00A57CD5+752853]
+	Ordinal0 [0x00A58EE6+757478]
+	Ordinal0 [0x00A58113+753939]
+	Ordinal0 [0x00A5861D+755229]
+	Ordinal0 [0x00A57D25+752933]
+	Ordinal0 [0x00A5D5C2+775618]
+	Ordinal0 [0x00A57CD5+752853]
+	Ordinal0 [0x00A58EE6+757478]
+	Ordinal0 [0x00A58113+753939]
+	Ordinal0 [0x00A5861D+755229]
+	Ordinal0 [0x00A57D25+752933]
+	Ordinal0 [0x00A52F2D+732973]
+	Ordinal0 [0x00A57CD5+752853]
+	Ordinal0 [0x00A574FD+750845]
+	Ordinal0 [0x00A5720F+750095]
+	Ordinal0 [0x00A67B93+818067]
+	Ordinal0 [0x00A4D2E9+709353]
+	Ordinal0 [0x00A4C4EB+705771]
+	Ordinal0 [0x00AB8215+1147413]
+	Ordinal0 [0x00AB7A6A+1145450]
+	Ordinal0 [0x00AB18A6+1120422]
+	Ordinal0 [0x00A8A73D+960317]
+	Ordinal0 [0x00A8B71F+964383]
+	GetHandleVerifier [0x00E6E7E2+2743074]
+	GetHandleVerifier [0x00E608D4+2685972]
+	GetHandleVerifier [0x00C52BAA+532202]
+	GetHandleVerifier [0x00C51990+527568]
+	Ordinal0 [0x00B6080C+1837068]
+	Ordinal0 [0x00B64CD8+1854680]
+	Ordinal0 [0x00B64DC5+1854917]
+	Ordinal0 [0x00B6ED64+1895780]
+	BaseThreadInitThunk [0x7681FEF9+25]
+	RtlGetAppContainerNamedObjectPath [0x770A7BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x770A7B8E+238]
+
+	at com.vyasasti.testng.basic.DataProviderExample.browserLaunch(DataProviderExample.java:23)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 31477
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1669344615.509][WARNING]: This version of ChromeDriver has not been tested with Chrome version 107.
+[1669344625.195][WARNING]: Timed out connecting to Chrome, retrying...
+[1669344633.270][WARNING]: Timed out connecting to Chrome, retrying...
+]]></system-err>
+  </testcase>
+  <testcase name="verifyUserLogon[blank, , ](1)" classname="com.vyasasti.testng.basic.DataProviderExample" time="0">
+    <skipped message="disconnected: received Inspector.detached event&#10;  (failed to check if window was closed: disconnected: unable to connect to renderer)&#10;  (Session info: chrome=107.0.5304.107)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-58RE0M7&apos;, ip: &apos;192.168.29.152&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00BC1ED3+2236115]&#10;	Ordinal0 [0x00B592F1+1807089]&#10;	Ordinal0 [0x00A666FD+812797]&#10;	Ordinal0 [0x00A5A1B6+762294]&#10;	Ordinal0 [0x00A59E33+761395]&#10;	Ordinal0 [0x00A59350+758608]&#10;	Ordinal0 [0x00A592C1+758465]&#10;	Ordinal0 [0x00A58113+753939]&#10;	Ordinal0 [0x00A5861D+755229]&#10;	Ordinal0 [0x00A57D25+752933]&#10;	Ordinal0 [0x00A62083+794755]&#10;	Ordinal0 [0x00A57CD5+752853]&#10;	Ordinal0 [0x00A58EE6+757478]&#10;	Ordinal0 [0x00A58113+753939]&#10;	Ordinal0 [0x00A5861D+755229]&#10;	Ordinal0 [0x00A57D25+752933]&#10;	Ordinal0 [0x00A5FBB8+785336]&#10;	Ordinal0 [0x00A57CD5+752853]&#10;	Ordinal0 [0x00A58EE6+757478]&#10;	Ordinal0 [0x00A58113+753939]&#10;	Ordinal0 [0x00A5861D+755229]&#10;	Ordinal0 [0x00A57D25+752933]&#10;	Ordinal0 [0x00A5D5C2+775618]&#10;	Ordinal0 [0x00A57CD5+752853]&#10;	Ordinal0 [0x00A58EE6+757478]&#10;	Ordinal0 [0x00A58113+753939]&#10;	Ordinal0 [0x00A5861D+755229]&#10;	Ordinal0 [0x00A57D25+752933]&#10;	Ordinal0 [0x00A52F2D+732973]&#10;	Ordinal0 [0x00A57CD5+752853]&#10;	Ordinal0 [0x00A574FD+750845]&#10;	Ordinal0 [0x00A5720F+750095]&#10;	Ordinal0 [0x00A67B93+818067]&#10;	Ordinal0 [0x00A4D2E9+709353]&#10;	Ordinal0 [0x00A4C4EB+705771]&#10;	Ordinal0 [0x00AB8215+1147413]&#10;	Ordinal0 [0x00AB7A6A+1145450]&#10;	Ordinal0 [0x00AB18A6+1120422]&#10;	Ordinal0 [0x00A8A73D+960317]&#10;	Ordinal0 [0x00A8B71F+964383]&#10;	GetHandleVerifier [0x00E6E7E2+2743074]&#10;	GetHandleVerifier [0x00E608D4+2685972]&#10;	GetHandleVerifier [0x00C52BAA+532202]&#10;	GetHandleVerifier [0x00C51990+527568]&#10;	Ordinal0 [0x00B6080C+1837068]&#10;	Ordinal0 [0x00B64CD8+1854680]&#10;	Ordinal0 [0x00B64DC5+1854917]&#10;	Ordinal0 [0x00B6ED64+1895780]&#10;	BaseThreadInitThunk [0x7681FEF9+25]&#10;	RtlGetAppContainerNamedObjectPath [0x770A7BBE+286]&#10;	RtlGetAppContainerNamedObjectPath [0x770A7B8E+238]&#10;"/>
+  </testcase>
+  <testcase name="verifyUserLogon[blankpass, vyasainstitute2022@gmail.com, ](2)" classname="com.vyasasti.testng.basic.DataProviderExample" time="0">
+    <skipped message="disconnected: received Inspector.detached event&#10;  (failed to check if window was closed: disconnected: unable to connect to renderer)&#10;  (Session info: chrome=107.0.5304.107)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-58RE0M7&apos;, ip: &apos;192.168.29.152&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00BC1ED3+2236115]&#10;	Ordinal0 [0x00B592F1+1807089]&#10;	Ordinal0 [0x00A666FD+812797]&#10;	Ordinal0 [0x00A5A1B6+762294]&#10;	Ordinal0 [0x00A59E33+761395]&#10;	Ordinal0 [0x00A59350+758608]&#10;	Ordinal0 [0x00A592C1+758465]&#10;	Ordinal0 [0x00A58113+753939]&#10;	Ordinal0 [0x00A5861D+755229]&#10;	Ordinal0 [0x00A57D25+752933]&#10;	Ordinal0 [0x00A62083+794755]&#10;	Ordinal0 [0x00A57CD5+752853]&#10;	Ordinal0 [0x00A58EE6+757478]&#10;	Ordinal0 [0x00A58113+753939]&#10;	Ordinal0 [0x00A5861D+755229]&#10;	Ordinal0 [0x00A57D25+752933]&#10;	Ordinal0 [0x00A5FBB8+785336]&#10;	Ordinal0 [0x00A57CD5+752853]&#10;	Ordinal0 [0x00A58EE6+757478]&#10;	Ordinal0 [0x00A58113+753939]&#10;	Ordinal0 [0x00A5861D+755229]&#10;	Ordinal0 [0x00A57D25+752933]&#10;	Ordinal0 [0x00A5D5C2+775618]&#10;	Ordinal0 [0x00A57CD5+752853]&#10;	Ordinal0 [0x00A58EE6+757478]&#10;	Ordinal0 [0x00A58113+753939]&#10;	Ordinal0 [0x00A5861D+755229]&#10;	Ordinal0 [0x00A57D25+752933]&#10;	Ordinal0 [0x00A52F2D+732973]&#10;	Ordinal0 [0x00A57CD5+752853]&#10;	Ordinal0 [0x00A574FD+750845]&#10;	Ordinal0 [0x00A5720F+750095]&#10;	Ordinal0 [0x00A67B93+818067]&#10;	Ordinal0 [0x00A4D2E9+709353]&#10;	Ordinal0 [0x00A4C4EB+705771]&#10;	Ordinal0 [0x00AB8215+1147413]&#10;	Ordinal0 [0x00AB7A6A+1145450]&#10;	Ordinal0 [0x00AB18A6+1120422]&#10;	Ordinal0 [0x00A8A73D+960317]&#10;	Ordinal0 [0x00A8B71F+964383]&#10;	GetHandleVerifier [0x00E6E7E2+2743074]&#10;	GetHandleVerifier [0x00E608D4+2685972]&#10;	GetHandleVerifier [0x00C52BAA+532202]&#10;	GetHandleVerifier [0x00C51990+527568]&#10;	Ordinal0 [0x00B6080C+1837068]&#10;	Ordinal0 [0x00B64CD8+1854680]&#10;	Ordinal0 [0x00B64DC5+1854917]&#10;	Ordinal0 [0x00B6ED64+1895780]&#10;	BaseThreadInitThunk [0x7681FEF9+25]&#10;	RtlGetAppContainerNamedObjectPath [0x770A7BBE+286]&#10;	RtlGetAppContainerNamedObjectPath [0x770A7B8E+238]&#10;"/>
+  </testcase>
+  <testcase name="verifyUserLogon[invalidlogin, vyasainstitute@gmail.com, Vyasa@12345](3)" classname="com.vyasasti.testng.basic.DataProviderExample" time="0">
+    <skipped message="disconnected: received Inspector.detached event&#10;  (failed to check if window was closed: disconnected: unable to connect to renderer)&#10;  (Session info: chrome=107.0.5304.107)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-58RE0M7&apos;, ip: &apos;192.168.29.152&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00BC1ED3+2236115]&#10;	Ordinal0 [0x00B592F1+1807089]&#10;	Ordinal0 [0x00A666FD+812797]&#10;	Ordinal0 [0x00A5A1B6+762294]&#10;	Ordinal0 [0x00A59E33+761395]&#10;	Ordinal0 [0x00A59350+758608]&#10;	Ordinal0 [0x00A592C1+758465]&#10;	Ordinal0 [0x00A58113+753939]&#10;	Ordinal0 [0x00A5861D+755229]&#10;	Ordinal0 [0x00A57D25+752933]&#10;	Ordinal0 [0x00A62083+794755]&#10;	Ordinal0 [0x00A57CD5+752853]&#10;	Ordinal0 [0x00A58EE6+757478]&#10;	Ordinal0 [0x00A58113+753939]&#10;	Ordinal0 [0x00A5861D+755229]&#10;	Ordinal0 [0x00A57D25+752933]&#10;	Ordinal0 [0x00A5FBB8+785336]&#10;	Ordinal0 [0x00A57CD5+752853]&#10;	Ordinal0 [0x00A58EE6+757478]&#10;	Ordinal0 [0x00A58113+753939]&#10;	Ordinal0 [0x00A5861D+755229]&#10;	Ordinal0 [0x00A57D25+752933]&#10;	Ordinal0 [0x00A5D5C2+775618]&#10;	Ordinal0 [0x00A57CD5+752853]&#10;	Ordinal0 [0x00A58EE6+757478]&#10;	Ordinal0 [0x00A58113+753939]&#10;	Ordinal0 [0x00A5861D+755229]&#10;	Ordinal0 [0x00A57D25+752933]&#10;	Ordinal0 [0x00A52F2D+732973]&#10;	Ordinal0 [0x00A57CD5+752853]&#10;	Ordinal0 [0x00A574FD+750845]&#10;	Ordinal0 [0x00A5720F+750095]&#10;	Ordinal0 [0x00A67B93+818067]&#10;	Ordinal0 [0x00A4D2E9+709353]&#10;	Ordinal0 [0x00A4C4EB+705771]&#10;	Ordinal0 [0x00AB8215+1147413]&#10;	Ordinal0 [0x00AB7A6A+1145450]&#10;	Ordinal0 [0x00AB18A6+1120422]&#10;	Ordinal0 [0x00A8A73D+960317]&#10;	Ordinal0 [0x00A8B71F+964383]&#10;	GetHandleVerifier [0x00E6E7E2+2743074]&#10;	GetHandleVerifier [0x00E608D4+2685972]&#10;	GetHandleVerifier [0x00C52BAA+532202]&#10;	GetHandleVerifier [0x00C51990+527568]&#10;	Ordinal0 [0x00B6080C+1837068]&#10;	Ordinal0 [0x00B64CD8+1854680]&#10;	Ordinal0 [0x00B64DC5+1854917]&#10;	Ordinal0 [0x00B6ED64+1895780]&#10;	BaseThreadInitThunk [0x7681FEF9+25]&#10;	RtlGetAppContainerNamedObjectPath [0x770A7BBE+286]&#10;	RtlGetAppContainerNamedObjectPath [0x770A7B8E+238]&#10;"/>
+  </testcase>
+  <testcase name="verifyUserLogon[validLogin, vyasainstitute2022@gmail.com, Vyasa@12345](4)" classname="com.vyasasti.testng.basic.DataProviderExample" time="0">
+    <skipped message="disconnected: received Inspector.detached event&#10;  (failed to check if window was closed: disconnected: unable to connect to renderer)&#10;  (Session info: chrome=107.0.5304.107)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-58RE0M7&apos;, ip: &apos;192.168.29.152&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00BC1ED3+2236115]&#10;	Ordinal0 [0x00B592F1+1807089]&#10;	Ordinal0 [0x00A666FD+812797]&#10;	Ordinal0 [0x00A5A1B6+762294]&#10;	Ordinal0 [0x00A59E33+761395]&#10;	Ordinal0 [0x00A59350+758608]&#10;	Ordinal0 [0x00A592C1+758465]&#10;	Ordinal0 [0x00A58113+753939]&#10;	Ordinal0 [0x00A5861D+755229]&#10;	Ordinal0 [0x00A57D25+752933]&#10;	Ordinal0 [0x00A62083+794755]&#10;	Ordinal0 [0x00A57CD5+752853]&#10;	Ordinal0 [0x00A58EE6+757478]&#10;	Ordinal0 [0x00A58113+753939]&#10;	Ordinal0 [0x00A5861D+755229]&#10;	Ordinal0 [0x00A57D25+752933]&#10;	Ordinal0 [0x00A5FBB8+785336]&#10;	Ordinal0 [0x00A57CD5+752853]&#10;	Ordinal0 [0x00A58EE6+757478]&#10;	Ordinal0 [0x00A58113+753939]&#10;	Ordinal0 [0x00A5861D+755229]&#10;	Ordinal0 [0x00A57D25+752933]&#10;	Ordinal0 [0x00A5D5C2+775618]&#10;	Ordinal0 [0x00A57CD5+752853]&#10;	Ordinal0 [0x00A58EE6+757478]&#10;	Ordinal0 [0x00A58113+753939]&#10;	Ordinal0 [0x00A5861D+755229]&#10;	Ordinal0 [0x00A57D25+752933]&#10;	Ordinal0 [0x00A52F2D+732973]&#10;	Ordinal0 [0x00A57CD5+752853]&#10;	Ordinal0 [0x00A574FD+750845]&#10;	Ordinal0 [0x00A5720F+750095]&#10;	Ordinal0 [0x00A67B93+818067]&#10;	Ordinal0 [0x00A4D2E9+709353]&#10;	Ordinal0 [0x00A4C4EB+705771]&#10;	Ordinal0 [0x00AB8215+1147413]&#10;	Ordinal0 [0x00AB7A6A+1145450]&#10;	Ordinal0 [0x00AB18A6+1120422]&#10;	Ordinal0 [0x00A8A73D+960317]&#10;	Ordinal0 [0x00A8B71F+964383]&#10;	GetHandleVerifier [0x00E6E7E2+2743074]&#10;	GetHandleVerifier [0x00E608D4+2685972]&#10;	GetHandleVerifier [0x00C52BAA+532202]&#10;	GetHandleVerifier [0x00C51990+527568]&#10;	Ordinal0 [0x00B6080C+1837068]&#10;	Ordinal0 [0x00B64CD8+1854680]&#10;	Ordinal0 [0x00B64DC5+1854917]&#10;	Ordinal0 [0x00B6ED64+1895780]&#10;	BaseThreadInitThunk [0x7681FEF9+25]&#10;	RtlGetAppContainerNamedObjectPath [0x770A7BBE+286]&#10;	RtlGetAppContainerNamedObjectPath [0x770A7B8E+238]&#10;"/>
+  </testcase>
+  <testcase name="closeBrowser" classname="com.vyasasti.testng.basic.DataProviderExample" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

@@ -1,0 +1,145 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 24, Failures: 8, Errors: 0, Skipped: 7, Time elapsed: 134.276 s <<< FAILURE! - in TestSuite
+com.vyasasti.testng.basic.DataProviderData.openBrowser  Time elapsed: 51.896 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='OK']"}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-58RE0M7', ip: '192.168.29.152', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Mahadev\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50816}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4cc1de91520705213a90c86fea41cb95
+*** Element info: {Using=xpath, value=//button[text()='OK']}
+	at com.vyasasti.testng.basic.DataProviderData.openBrowser(DataProviderData.java:28)
+
+com.vyasasti.testng.basic.DataProviderData.loginform  Time elapsed: 52.027 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+[public void com.vyasasti.testng.basic.DataProviderData.loginform(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: loginform([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=4, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=5, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+
+com.vyasasti.testng.basic.AssertTestNG.softAssertTest  Time elapsed: 0.062 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [A] but found [B],
+	expected [false] but found [true]
+	at com.vyasasti.testng.basic.AssertTestNG.softAssertTest(AssertTestNG.java:55)
+
+com.vyasasti.testng.basic.DataProviderExample.browserLaunch  Time elapsed: 28.947 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: unable to connect to renderer)
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-58RE0M7', ip: '192.168.29.152', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00BC1ED3+2236115]
+	Ordinal0 [0x00B592F1+1807089]
+	Ordinal0 [0x00A666FD+812797]
+	Ordinal0 [0x00A5A1B6+762294]
+	Ordinal0 [0x00A59E33+761395]
+	Ordinal0 [0x00A59350+758608]
+	Ordinal0 [0x00A592C1+758465]
+	Ordinal0 [0x00A58113+753939]
+	Ordinal0 [0x00A5861D+755229]
+	Ordinal0 [0x00A57D25+752933]
+	Ordinal0 [0x00A62083+794755]
+	Ordinal0 [0x00A57CD5+752853]
+	Ordinal0 [0x00A58EE6+757478]
+	Ordinal0 [0x00A58113+753939]
+	Ordinal0 [0x00A5861D+755229]
+	Ordinal0 [0x00A57D25+752933]
+	Ordinal0 [0x00A5FBB8+785336]
+	Ordinal0 [0x00A57CD5+752853]
+	Ordinal0 [0x00A58EE6+757478]
+	Ordinal0 [0x00A58113+753939]
+	Ordinal0 [0x00A5861D+755229]
+	Ordinal0 [0x00A57D25+752933]
+	Ordinal0 [0x00A5D5C2+775618]
+	Ordinal0 [0x00A57CD5+752853]
+	Ordinal0 [0x00A58EE6+757478]
+	Ordinal0 [0x00A58113+753939]
+	Ordinal0 [0x00A5861D+755229]
+	Ordinal0 [0x00A57D25+752933]
+	Ordinal0 [0x00A52F2D+732973]
+	Ordinal0 [0x00A57CD5+752853]
+	Ordinal0 [0x00A574FD+750845]
+	Ordinal0 [0x00A5720F+750095]
+	Ordinal0 [0x00A67B93+818067]
+	Ordinal0 [0x00A4D2E9+709353]
+	Ordinal0 [0x00A4C4EB+705771]
+	Ordinal0 [0x00AB8215+1147413]
+	Ordinal0 [0x00AB7A6A+1145450]
+	Ordinal0 [0x00AB18A6+1120422]
+	Ordinal0 [0x00A8A73D+960317]
+	Ordinal0 [0x00A8B71F+964383]
+	GetHandleVerifier [0x00E6E7E2+2743074]
+	GetHandleVerifier [0x00E608D4+2685972]
+	GetHandleVerifier [0x00C52BAA+532202]
+	GetHandleVerifier [0x00C51990+527568]
+	Ordinal0 [0x00B6080C+1837068]
+	Ordinal0 [0x00B64CD8+1854680]
+	Ordinal0 [0x00B64DC5+1854917]
+	Ordinal0 [0x00B6ED64+1895780]
+	BaseThreadInitThunk [0x7681FEF9+25]
+	RtlGetAppContainerNamedObjectPath [0x770A7BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x770A7B8E+238]
+
+	at com.vyasasti.testng.basic.DataProviderExample.browserLaunch(DataProviderExample.java:23)
+
+com.vyasasti.testng.basic.PracticeAutomation.verifyTitleOfHomePage  Time elapsed: 0.022 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-58RE0M7', ip: '192.168.29.152', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Mahadev\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50790}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 300665de6f7e8ae61362a69825c12e3f
+	at com.vyasasti.testng.basic.PracticeAutomation.verifyTitleOfHomePage(PracticeAutomation.java:35)
+
+com.vyasasti.testng.basic.PracticeAutomation.verifySliderCount  Time elapsed: 0.009 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-58RE0M7', ip: '192.168.29.152', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Mahadev\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50790}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 300665de6f7e8ae61362a69825c12e3f
+*** Element info: {Using=xpath, value=//div[@id="text-22-0-0-1"]//img[@class="n2-ss-slide-background-image n2-ss-slide-fill n2-ow"]}
+	at com.vyasasti.testng.basic.PracticeAutomation.verifySliderCount(PracticeAutomation.java:68)
+
+com.vyasasti.testng.basic.PracticeAutomation.verifyNewArrivalHeaderText  Time elapsed: 0.009 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-58RE0M7', ip: '192.168.29.152', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Mahadev\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50790}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 300665de6f7e8ae61362a69825c12e3f
+*** Element info: {Using=tag name, value=h2}
+	at com.vyasasti.testng.basic.PracticeAutomation.verifyNewArrivalHeaderText(PracticeAutomation.java:53)
+
+com.vyasasti.testng.basic.PracticeAutomation.closeBrowser  Time elapsed: 32.381 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+disconnected: unable to connect to renderer
+  (failed to check if window was closed: disconnected: unable to connect to renderer)
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-58RE0M7', ip: '192.168.29.152', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Mahadev\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50790}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 300665de6f7e8ae61362a69825c12e3f
+	at com.vyasasti.testng.basic.PracticeAutomation.closeBrowser(PracticeAutomation.java:84)
+
